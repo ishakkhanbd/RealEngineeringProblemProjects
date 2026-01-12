@@ -1,0 +1,43 @@
+{
+  "layers": [
+    {
+      "name": "Al_Block",
+      "thickness_m": 0.004,
+      "k": 180.0,
+      "rho": 2700.0,
+      "cp": 900.0
+    },
+    {
+      "name": "Ceramic",
+      "thickness_m": 0.0015,
+      "k": 25.0,
+      "rho": 3900.0,
+      "cp": 800.0
+    },
+    {
+      "name": "TIM",
+      "thickness_m": 0.0002,
+      "k": 3.0,
+      "rho": 2500.0,
+      "cp": 900.0
+    },
+    {
+      "name": "Silicon",
+      "thickness_m": 0.0007,
+      "k": 130.0,
+      "rho": 2330.0,
+      "cp": 700.0
+    }
+  ],
+  "T_total_s": 600.0,
+  "dt_s": 0.2,
+  "save_every_n": 5,
+  "T_init_C": 25.0,
+  "left_bc_type": "dirichlet",
+  "T_left_setpoint_C": 120.0,
+  "h_left_W_m2K": 150.0,
+  "T_amb_left_C": 120.0,
+  "h_right_W_m2K": 15.0,
+  "T_amb_right_C": 25.0,
+  "dx_target_m": 0.0002
+}
