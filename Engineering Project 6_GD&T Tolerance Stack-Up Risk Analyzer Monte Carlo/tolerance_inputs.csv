@@ -1,0 +1,7 @@
+feature,nominal_mm,tol_pm_mm,distribution,notes
+Housing_Opening,10.0,0.05,normal,machined pocket width
+Module_Thickness,9.92,0.04,normal,module stack thickness
+Shim_Stack,0.05,0.02,uniform,shim selection variation
+Positional_Error,0.0,0.03,normal,GD&T position error (radial)
+Flatness_Effect,0.0,0.015,normal,effective closure from flatness
+Runout_Effect,0.0,0.02,normal,effective closure from runout
