@@ -1,0 +1,6 @@
+class,support_true_count,per_class_accuracy
+tilt_drift,30,1.0
+normal,30,0.0
+scratch_gouge,30,0.0
+spike,30,0.0
+vibration_ripple,30,0.0
